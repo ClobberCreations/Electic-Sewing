@@ -7,7 +7,7 @@ touchSensor = ADC(27)
 # while True for an endless loop
 while True:
     #takes a reading from ADC pin which will be a number between 0 and 65535
-    reading = touchSensor.readu16() 
+    reading = touchSensor.read_u16() 
     #prints touchsensor reading 
     print("ADC : {}".format(reading))
     #if the touchSensor is pressed down:
