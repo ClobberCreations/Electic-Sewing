@@ -1,6 +1,4 @@
-from ast import While
-from asyncore import read
-from board import Pin, ADC
+from machine import Pin, ADC
 import time
 #Initialising the pins
 led1 = Pin(14, Pin.OUT)
