@@ -1,4 +1,4 @@
-#Pico 
+#Pico used for testing
 
 from machine import Pin
 import time
