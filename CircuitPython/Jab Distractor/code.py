@@ -9,8 +9,8 @@ while True:
     vibeBoard.value = True
     time.sleep(60)
     vibeBoard.value = False
-    time.sleep(5)
+    time.sleep(2)
     vibeBoard.value = True
-    time.sleep(5)
+    time.sleep(2)
     vibeBoard.value = False
-    time.sleep(5)
+    time.sleep(2)
